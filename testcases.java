@@ -39,9 +39,9 @@ public class testcases {
 	        public void testvalidlogindetails() {
 	        	 // Fill in login details
 		        WebElement emailField = driver.findElement(By.id("email"));
-		        emailField.sendKeys("priyankaweragoda72@gmail.com");
+		        emailField.sendKeys("");
 		        WebElement passwordField = driver.findElement(By.id("password"));
-		        passwordField.sendKeys("priya@123456");
+		        passwordField.sendKeys("");
 		        // Submit login
 		        WebElement loginSubmitButton = driver.findElement(By.id("login-submit"));
 		        loginSubmitButton.click();
